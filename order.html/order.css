@@ -1,0 +1,309 @@
+
+
+#top-cart-inside{
+    font-size: 45px;
+    position: fixed;
+    top: 35px;
+    right: 35px;
+    background-color: rgb(5, 5, 5);
+
+}
+/* start-block-ends */
+
+/* first block */
+.headerr{
+    box-sizing: border-box;
+    background-color: rgb(190, 142, 142);
+    }
+    .headerr .first-block{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    }
+    .first-block-one{
+        font-family: 'Dancing Script', cursive;
+        font-size: 54px;
+    }
+    .first-block-two{
+    display: flex;
+    position: relative;
+    right: -250px;
+    
+    }
+    .first-block-three{
+      display: flex;
+    }
+    .first-block-two i{
+      margin-top: 5px;
+      border-right:1px solid black ;
+      height: 28px; 
+    }
+    .first-block-three i{
+      margin-top: 5px;
+      border-right:1px solid black ;
+      height: 28px; 
+    }
+    @media screen and (max-width: 640px) {
+      .headerr{
+        width: 100%;
+      }
+      .headerr .first-block{
+        height: 10%;
+      }
+      .first-block-one{
+    margin-left: -30%;
+    font-size: 24px;
+      }
+      .first-block-two{
+    
+        margin-left: -120%;
+        font-size: 9px;
+      }
+      .first-block-three{
+        margin-right:-35%;
+        font-size: 9px;
+      
+      }
+      .first-block-two i{
+        font-size: 12px;
+        height: 2%;
+    
+      }
+      .first-block-three i{
+        font-size: 12px;
+        height: 2%;
+    
+      }
+    }
+    /* first block ends */
+    
+    
+    /* second block */
+    .second-block{
+    margin: 5px 0px;
+    }
+    .second-block .second-block-inside{
+    margin: 9px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 600px;
+    margin-left: 30%;
+    }
+    .second-block-inside-one{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+    }
+    .second-block-inside a{
+    text-decoration: none;
+    margin-top: 15px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-right: 9px;
+    padding-left: 9px;
+    }
+    .second-block-inside a:hover{
+    background-color: gray;
+    }
+    @media screen and (max-width: 640px) {
+    
+    .second-block .second-block-inside{
+    width: 100%;
+    margin: 3%  0.2%;
+    }
+    .second-block-inside-one{
+      margin: 3% 2%;
+    }
+    .second-block-inside a{
+      font-size: 9px;
+    }
+    }
+     /* secong block ends  */
+
+
+    /* third-block-start */
+    .thire-block{
+        background-color: rgb(221, 222, 223);
+        height: 165px;
+        border: 2px solid black;
+border-radius: 3px;
+    }
+    .thire-block-inside{
+        position: relative;
+
+    }
+    #three-one{
+    font-size: 84px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    text-shadow: 0px 0px 9px rgb(44, 28, 148);
+
+    }
+    #three-two{
+        position: absolute;
+        right: 23%;
+        top: 110px;
+        font-size: 24px;
+        text-shadow: 0px 0px 9px red;
+    }
+    @media screen and (max-width: 640px){
+        .thire-block{
+            background-color: rgb(221, 222, 223);
+            height: 85px;
+            border: 2px solid black;
+    
+        }
+        .thire-block-inside{
+    
+        }
+        #three-one{
+         font-size: 40px;
+        }
+        #three-two{
+           font-size: 17px;
+           top: 54px;
+        }
+    }
+     /* third-block-ends */
+
+
+    /* fourth-block-start */
+.fourth-block{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(230, 19, 19);
+box-sizing: border-box;
+height: 65px;
+position: relative;
+margin-top: 20px;
+
+}
+.fourth-copy{
+
+}
+.fourth-copy p{
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  top: -57px;
+  left: 20px;
+}
+
+.fourth-search{
+
+
+}
+.fourth-search input{
+  border-radius: 9px;
+}
+.fourth-search i{
+position: absolute;
+left: 785px;
+
+}
+.fourth-noti{
+  margin-right: 19px;
+  font-size: 50px;
+}
+    /* fourth-block-ends */
+
+
+/* fifth-block-start */
+.fifth-block{
+  background-color: rgb(124, 122, 122);
+}
+.fifth-block-inside{
+margin-top: 10px;
+display: flex;
+position: relative;
+justify-content: space-around;
+}
+.fifth-img{
+padding-top: 10px;
+margin-top: 10px;
+text-align: center;
+background-color: rgb(228, 147, 115);
+transition: 0.7s all ease-in-out;
+}
+.fifth-img:hover{
+  background-color: white;
+}
+
+.fifth-img i{
+  position: absolute;
+  bottom: 4px;
+  margin-left: 29px;
+}
+.fifth-img:hover img{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  transition: 1s all ease-in-out;
+}
+.fifth-img p{
+  font-family: 'Dancing Script', cursive;
+}
+.fifth-img:hover p{
+transform: scale(1.1);
+transition: 1s all ease-in-out;
+}
+
+/* fifth-block-ends */
+#six-block{
+
+}
+#six-block-inside{
+
+}
+#six-item{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-row-gap: 40px;
+  text-align: center;
+  grid-gap: 3%;
+  margin-left: 3%;
+  margin-top: 5%;
+
+}
+.item{
+
+padding-top: 40px; 
+ background-color: red;
+}
+
+/* fifth-block-ends */
+#detail{
+  display: none;
+
+}
+.detail-inside{
+  display: flex
+}
+
+.detail-item{
+  background: red;
+}
+
+
+
+
+#cart-empty{
+
+  display: none;
+}
+
+#cart-notempty{
+
+  display: none;
+}
+.quantityee{
+  border: 4px solid green;
+}
+/* #remove{
+
+} */
+.cart-listee{
+  border: 4px solid green;
+}
